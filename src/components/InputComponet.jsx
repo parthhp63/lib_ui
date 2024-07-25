@@ -1,6 +1,6 @@
 import React from "react";
 
-const InputComponent=({name,placeholder,max,min,type,maxLength,labelfor,id,value,xlabelname,change,className,errname,errname_disp,register})=>{
+const InputComponent=({name,placeholder,max,min,type,maxLength,labelfor,id,value,labelname,change,className,errname,errname_disp,register})=>{
          return(
             <div>
                 <label htmlFor={labelfor} >{labelname}</label><br />
